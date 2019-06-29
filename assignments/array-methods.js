@@ -94,14 +94,14 @@ runners.forEach(runner => {
     companyList.push(`${runner.company_name}`);
 });
 
+console.log(companyList);
+
 // Problem 2
-// Arrange runners by name in alphabetical order
-let alphaOrder = [];
-
-console.log(alphaOrder);
-
-// Problem 3
 // The director needs a new list with runners last names first to optimize the list 
 let fullNameReverse = [];
-
+runners.forEach(runner => {
+    fullNameReverse.push(`${runner.last_name}` + `${runner.first_name}`);
+ });
 console.log(fullNameReverse);
+
+// Problem 3
