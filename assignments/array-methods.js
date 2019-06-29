@@ -105,3 +105,7 @@ runners.forEach(runner => {
 console.log(fullNameReverse);
 
 // Problem 3
+// Not only were large shirts unavailable, the extra small shirts also came back with an order issue
+let needNewShirts = [];
+needNewShirts = runners.filter(runner => runner.shirt_size === 'L' || runner.shirt_size === 'XS');
+console.log(needNewShirts);
