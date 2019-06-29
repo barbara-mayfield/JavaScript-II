@@ -93,19 +93,15 @@ let companyList = [];
 runners.forEach(runner => {
     companyList.push(`${runner.company_name}`);
 });
-// Arrange runners in alphabetical order
-let alphaOrder = [];
 
 // Problem 2
-// Arrange runners in alphabetical order
+// Arrange runners by name in alphabetical order
 let alphaOrder = [];
 
-runners.forEach(runner => {
-    companyList.push(`${runner.company_name}`);
-});
-
-console.log(companyList);
+console.log(alphaOrder);
 
 // Problem 3
 // The director needs a new list with runners last names first to optimize the list 
 let fullNameReverse = [];
+
+console.log(fullNameReverse);
